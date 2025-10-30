@@ -35,7 +35,7 @@ while opcao != 0:
         
             nome = alunos[matricula][0]
             alunos[matricula] = (nome, tuple(notas))
-            print("\nNotas registradas com sucesso!")
+            print("\nNotas registradas com sucesso")
         
         else:
             print("\nAluno não encontrado")
@@ -53,7 +53,7 @@ while opcao != 0:
             else:
                 print(f"{matricula} - {nome}: não existe notas para essa matricula ainda.")
 
-     # Mostrar aprovados e Reprovados        
+     # Mostrar aprovados e reprovados        
     elif opcao == 4:
         print("\n--- APROVADOS E REPROVADOS ---")
         print()
